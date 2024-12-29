@@ -19,12 +19,12 @@ from PySpice.Unit import *
 # Circuit Simulation Inputs
 FREQUENCY = 60
 VSRC = np.sqrt(2) * 120
-RU_W_VAL = 125.95
-RW_V_VAL = 2.13
-RV_U_VAL = 3.07
-LU_W_VAL = 482.225
-LW_V_VAL = 14.7
-LV_U_VAL = 13.9
+RU_W_VAL = 5
+RW_V_VAL = 5
+RV_U_VAL = 5
+LU_W_VAL = 220
+LW_V_VAL = 220
+LV_U_VAL = 220
 
 circuit = Circuit('Three Phase Motor - Delta')
 
